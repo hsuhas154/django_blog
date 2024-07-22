@@ -1,0 +1,155 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  
+  .bg-steel {
+    background-color: #5f788a;
+  }
+  
+  .site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .article-title {
+    color: #444444;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+    max-height: 500px; /* Adjust the max height as needed */
+    overflow-y: auto;
+    padding: 10px; /* Optional: Add padding for better readability */
+    border: 1px solid #ddd; /* Optional: Add a border for better visual distinction */
+    background-color: #f9f9f9; /* Optional: Add a background color */
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+  .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.651);
+}
+
+.navbar-nav .nav-link:hover {
+    color: white !important;
+}
+
+.navbar-nav .btn-link {
+    color: rgba(255, 255, 255, 0.651);
+    text-decoration: none;
+}
+
+.navbar-nav .btn-link:hover {
+    color: white !important;
+    text-decoration: none;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-control {
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+}
+
+.info-icon {
+  top: 114%;
+  transform: translateY(-50%);
+  right: 41.8rem;
+  cursor: pointer;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.btn-outline-info {
+  width: auto; /* Set the button width to auto */
+  padding: 0.5rem 1.5rem; /* Adjust padding for a smaller button */
+}
+
+.tooltip-inner {
+  white-space: pre-line; /* Ensures the line breaks are respected */
+  max-width: none; /* Allows the tooltip to expand to fit content */
+}
+
+/* main.css */
+.post-content {
+  max-height: 400px; /* Set the maximum height for the content */
+  overflow-y: auto;  /* Add a vertical scrollbar if content overflows */
+  padding: 10px;
+  border: 1px solid #ddd; /* Optional: Add a border for better visualization */
+  background-color: #f9f9f9; /* Optional: Add a background color */
+}

@@ -1,0 +1,32 @@
+Project Overview
+
+1. Root Directory:
+    * manage.py: A command-line utility that lets you interact with this Django project.
+    * db.sqlite3: The default SQLite database file for your Django project.
+
+2. django_blog Directory:
+    * asgi.py: Configuration for ASGI (Asynchronous Server Gateway Interface).
+    * settings.py: Configuration for your Django project (database settings, installed apps, middleware, etc.).
+    * urls.py: URL routing for your Django project.
+    * wsgi.py: Configuration for WSGI (Web Server Gateway Interface).
+    * __init__.py: Marks this directory as a Python package.
+    * __pycache__: The __pycache__ directory in a Django project (or any Python project) contains compiled bytecode files that Python generates to improve the performance of the program.
+
+3. blog Directory (Application):
+    * admin.py: Configuration for the Django admin interface for your models.
+    * apps.py: Configuration for the blog application.
+    * models.py: Defines the data models for your application.
+    * tests.py: Contains test cases for your application.
+    * urls.py: URL routing for the blog application.
+    * views.py: Contains the view functions or classes for rendering web pages.
+    * __init__.py: Marks this directory as a Python package.
+
+4. blog/migrations Directory:
+    * Contains database migrations to keep track of changes to your models.
+
+5. blog/static Directory:
+    * main.css: Contains static files like CSS, JavaScript, and images.
+
+6. blog/templates Directory:
+    * Contains HTML templates for your application.
+    * about.html, base.html, home.html: HTML files used for rendering different pages of your application.
